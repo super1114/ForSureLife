@@ -1,0 +1,7 @@
+.birth-year-page .ant-form-item .ant-select-selector{
+   border-radius: 7px;
+}
+.birth-year-page .ant-form-item .ant-form-item-label label{
+    font-size: 22px !important;
+    color: #626262;
+}

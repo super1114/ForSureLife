@@ -1,0 +1,6 @@
+.email-page-form label{
+    font-size: 22px !important;
+}
+.email-page-form .ant-input-affix-wrapper-lg {
+    border-radius: 7px;
+}

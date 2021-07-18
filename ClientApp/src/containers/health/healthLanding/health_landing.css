@@ -1,0 +1,18 @@
+.custom-card-ui{
+    background-color: #2169AC;
+    border-radius: 10px;
+}
+.custom-card-ui p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .custom-card-ui p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+}

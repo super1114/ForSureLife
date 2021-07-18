@@ -1,0 +1,15 @@
+.custom-input-field{
+    border-radius: 7px;
+    box-shadow: 0 1px 4px rgba(98,98,98,0.5);
+}
+.custom-checkbox .ant-checkbox-inner{
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(176,176,176,0.5);
+}
+.address-field .ant-form-item-label label, .label label {
+    font-size: 22px !important;
+}
+.apartment-number label {
+    font-size: 16px !important;
+    color: #626262;
+}

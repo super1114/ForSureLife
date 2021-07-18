@@ -1,0 +1,36 @@
+.payment-type{
+    background-color: #0174C3;
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.5);
+    position: relative;
+}
+.payment-type-btn{
+    background-color: #EC8D10;
+    font-size: 18px !important;
+    color: #ffffff;
+    font-weight: normal !important;
+    border-color: #EC8D10;
+}
+.payment-type-btn:hover{
+    background-color: #EC8D10;
+    color: #ffffff;
+    border-color: #EC8D10;
+}
+.type-secure-img{
+    top: 0;
+}
+.type-secure-img1{
+    right: -50px !important;
+}
+
+@media screen  and (max-width: 576px){
+    .payment-type-btn{
+        min-width: 110px;
+    }
+    .payment-type{
+        max-width: 100%;
+    }
+}

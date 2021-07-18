@@ -1,0 +1,73 @@
+.custom-button-default {
+    background: #FF6300;
+    border-color: #FF6300;
+    padding: 0px 20px !important;
+}
+
+.custom-button-default:hover {
+    background: #ff8232;
+    border-color: #ff8232;
+}
+
+.custom-button-default:focus {
+    background: #FF6300;
+    border-color: #FF6300;
+}
+
+.custom-button-default-content {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.custom-button-dark {
+    background: #142951;
+    border-color: #142951;
+    padding: 0px 20px !important;
+}
+
+.custom-button-dark:hover {
+    background: #425373;
+    border-color: #425373;
+}
+
+.custom-button-dark:focus {
+    background: #142951;
+    border-color: #142951;
+}
+
+.custom-button-dark-content {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+.inverted  {
+    font-family: Arial;
+    background-color: #fff;
+    color: #012F79;
+    border-color: #142951;
+    padding: 0 20px !important;
+}
+
+.inverted:hover {
+    background: #fff;
+    color: #425373;
+    border-color: #425373;
+}
+
+.inverted:focus {
+    background-color: #fff;
+    color: #142951;
+    border-color: #142951;
+}
+
+.inverted-content {
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}

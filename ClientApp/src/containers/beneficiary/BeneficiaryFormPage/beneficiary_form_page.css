@@ -1,0 +1,12 @@
+.beneficiary-form-page label{
+    font-size: 18px !important;
+}
+.beneficiary-form-page .ant-form-item-control-input input{
+    border-radius: 7px !important;
+}
+.beneficiary-form-page .ant-select-selector{
+    border-radius: 7px !important;
+}
+.beneficiary-form-page .ant-form-item-control-input-content span{
+    border-radius: 7px !important;
+}

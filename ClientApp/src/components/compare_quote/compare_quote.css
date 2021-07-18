@@ -1,0 +1,65 @@
+.best-price:after {
+    content: 'Best Price';
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    background-color: #FF8724;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 2px 4px #00000082;
+}
+.best-price:before{
+    content: '';
+    position: absolute;
+    right: 7px;
+    top: -10px;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 15px solid #886638;
+}
+.best-price-img{
+    border-radius: 20px;
+    background: #fff;
+    border: 2px solid #248621;
+    text-align: center;
+}
+.price-card hr{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+.price-text p {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #484848;
+    font-size: 18px;
+}
+.price-text p span {
+    color: #006495;
+}
+.sub-title{
+    font-family: arial;
+    font-size: 24px;
+    color: #484848;
+    font-weight: bold;
+}
+.why-choose p{
+    font-size: 21px;
+    color: #484848;
+}
+.why-choose ul li {
+    color: #000;
+    font-size: 21px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .price-text p{
+        margin-bottom: 30px;
+    }
+}

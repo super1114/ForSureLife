@@ -1,0 +1,75 @@
+{
+  "name": "forsurelifeui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@craco/craco": "^6.1.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.28",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router": "^5.1.12",
+    "@types/redux-actions": "^2.6.1",
+    "antd": "^4.12.3",
+    "antd-mask-input": "^0.1.14",
+    "craco-antd": "^1.19.0",
+    "moment": "^2.29.1",
+    "ncp": "^2.0.0",
+    "qs": "^6.9.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-facebook-pixel": "^1.0.4",
+    "react-google-autocomplete": "^2.4.0",
+    "react-intl": "^5.13.2",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-scroll": "^1.8.2",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-devtools": "^3.7.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "typescript": "^4.1.5",
+    "universal-cookie": "^4.0.4",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.1.0"
+  },
+  "scripts": {
+    "start:local": "npm run select-env local && craco start",
+    "start:dev": "npm run select-env dev && craco start",
+    "start:prod": "npm run select-env prod && craco start",
+    "build": "npm run select-env prod && craco build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "select-env": "node scripts/select_env.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/facebook-pixel": "0.0.22"
+  }
+}

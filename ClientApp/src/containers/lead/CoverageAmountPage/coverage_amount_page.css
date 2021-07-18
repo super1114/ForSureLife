@@ -1,0 +1,19 @@
+.coverage-amount-page{
+    background: #5D646A;
+    color: #ffffff;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+.coverage-amount-page button{
+    align-items: center;
+    background-color: #00ACDA !important;
+}
+.coverage-amount-page .formatted-number{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+}

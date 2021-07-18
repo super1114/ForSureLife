@@ -1,0 +1,175 @@
+.immediate-banner {
+    background-color: #3E8CF4 !important;
+    color: #fff;
+}
+
+.immediate-wrapper {
+    background-color: #142951;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.immediate-congratulations {
+    position: relative;
+    font-family: Arial;
+    background-color: #006495;
+    width: 460px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 20px 10px 20px;
+    border-radius: 25px;
+    z-index: 4;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.5)
+}
+.immediate-congratulations img{
+    position: absolute;
+    z-index: 5;
+    top: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.immediate-congratulations strong{
+    font-size: 30px;
+    display: block;
+}
+
+.immediate-content-detail{
+    position: absolute;
+    top: -40px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.immediate-content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    margin-top: 140px;
+    padding-top: 150px;
+}
+.immediate-content-inner{
+    font-family: Arial;
+    text-align: left;
+}
+.immediate-reminder-list{
+    font-size: 23px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.immediate-reminder-list li::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-size: contain;
+    background-image: url('../../assets/gray-checkmark.svg');
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.immediate-why {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 960px;
+    color: white;
+    background-image: url('../../assets/immediate_assets/immediate_logo.png');
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    padding: 5px
+}
+.immediate-why span:first-child{
+    font-family: Arial;
+}
+.immediate-tip {
+    background-color: #242C8A;
+    color:white;
+    padding: 30px 25px 5px 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: -35px;
+    z-index: 3;
+}
+.immediate-time{
+    margin-top: 20px;
+    font-family: Arial;
+}
+.immediate-time span{
+    font-size: 16px;
+    color: #535353
+}
+.immediate-button {
+    background: #FF6300;
+    border-color: #FF6300;
+    padding: 0 20px !important;
+}
+
+.immediate-button:hover {
+    background: #FF6300;
+    border-color: #FF6300;
+}
+
+.immediate-button-content {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+
+.immediate-footer {
+    font-family: Arial;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 960px;
+    color: #575757;
+}
+.immediate-footer b{
+    font-size: 35px;
+}
+.immediate-logos {
+    margin-top: 20px;
+}
+
+
+@media all and (max-width: 767px) {
+    .immediate-congratulations img{
+        width: 82px !important;
+    top: -60px;
+}
+    .immediate-content{
+        margin-top: 100px;
+        padding-top: 120px;
+    }
+    .immediate-congratulations{
+        font-size: 17px;
+        width: auto;
+    }
+    .immediate-congratulations strong{
+        font-size: 26px;
+    }
+    .immediate-reminder-list{
+        font-size: 16px;
+    }
+
+    .immediate-why {
+        padding: 10px;
+    }
+
+    .immediate-footer {
+        padding: 10px;
+    }
+}

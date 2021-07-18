@@ -1,0 +1,18 @@
+.main-card{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 80px;
+    max-width: 756px;
+}
+.card-wrapper{
+    padding: 24px 10px 10px;
+    background-color: #142951;
+}
+
+@media screen and (max-width: 576px) {
+    .main-card{
+        padding: 20px;
+    }
+}

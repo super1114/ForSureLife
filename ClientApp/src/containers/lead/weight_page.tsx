@@ -1,0 +1,126 @@
+import React from "react";
+import { GlobalState } from "../../reducers/root_reducer";
+import { connect } from "react-redux";
+import { QuestionDisplay } from "../../components/question_display";
+import { QuestionList } from "../../utilities/questions";
+import { RouteComponentProps } from "react-router";
+import { navRoutes } from "../../nav/routes";
+import { NavigationButtons } from "../../components/Nav_Buttons/nav_buttons";
+import { navigate } from "../../utilities/navigation_util";
+import { Row, Col, Input, FormInstance, Form } from "antd";
+import { ApplicationInfoDto } from "../../clients/api.generated.clients";
+import { LeadFlow } from "../../actions/nav_actions";
+import { UpdateApplicationInfo } from "../../actions/application_actions";
+import { customBindActionCreators } from "../../utilities/helper";
+import _ from "lodash";
+import { validateWeight } from "../../utilities/validator";
+import { CardWrapper } from "../../components/Card-wrapper/card_wrapper";
+
+interface Props extends RouteComponentProps {
+  flow: LeadFlow;
+  applicationInfo: ApplicationInfoDto;
+  updateApplicationInfo: (appInfoDto: ApplicationInfoDto) => void;
+}
+
+interface State {}
+
+interface FormState {
+  weight: string;
+}
+
+export class WeightPageClass extends React.Component<Props, State> {
+  formRef = React.createRef<FormInstance>();
+
+  navigate = (values: FormState) => {
+    const { flow, history, applicationInfo, updateApplicationInfo } =
+      this.props;
+
+    const updatedAppInfo: ApplicationInfoDto = _.cloneDeep(applicationInfo);
+    updatedAppInfo.weight = Number(values.weight);
+    updateApplicationInfo(updatedAppInfo);
+
+    if (flow == LeadFlow.A) {
+      /*         navigate(history, navRoutes.Knockout.TobacooUse.path);*/
+    } else if (flow == LeadFlow.B) {
+      navigate(history, navRoutes.Quote.Gender.path);
+    } else if (flow == LeadFlow.C) {
+      navigate(history, navRoutes.Quote.Gender.path);
+    } else if (flow == LeadFlow.D) {
+      navigate(history, navRoutes.Quote.Gender.path);
+    } else if (flow == LeadFlow.E) {
+      navigate(history, navRoutes.Quote.Gender.path);
+    } else {
+      navigate(history, navRoutes.Quote.Gender.path);
+    }
+  };
+
+  componentDidMount() {
+    const { applicationInfo } = this.props;
+    this.formRef.current.setFieldsValue({
+      weight: applicationInfo.weight ? applicationInfo.weight.toString() : "",
+    });
+  }
+
+  render() {
+    return (
+      <CardWrapper>
+        <div className="d-flex justify-between flex-column h-100">
+          <QuestionDisplay
+            questionTitle={QuestionList.LeadQuestions.Weight.Title}
+            questionText={QuestionList.LeadQuestions.Weight.Text}
+          />
+          <Form
+            layout="vertical"
+            ref={this.formRef}
+            onFinish={this.navigate}
+            scrollToFirstError
+          >
+            <Row justify="center" className="mb-70">
+              <Col md={6} xs={24}>
+                <Form.Item
+                  className="label"
+                  rules={[{ required: true, validator: validateWeight }]}
+                                label="Weight"
+                                style={{ lineHeight: "2.5" }}
+                  name="weight"
+                >
+                  <Input
+                    className="custom-input-field"
+                    type="tel"
+                    size="large"
+                    placeholder="Weight"
+                    suffix="lbs."
+                  />
+                </Form.Item>
+              </Col>
+            </Row>
+            <NavigationButtons progressPercent={93} />
+          </Form>
+        </div>
+      </CardWrapper>
+    );
+  }
+}
+
+const mapStateToProps = (state: GlobalState) => {
+  return {
+    flow: state.navigation.leadFlow,
+    applicationInfo: state.app.applicationInfo,
+  };
+};
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    ...customBindActionCreators(
+      {
+        updateApplicationInfo: (appInfoDto: ApplicationInfoDto) =>
+          UpdateApplicationInfo(appInfoDto),
+      },
+      dispatch
+    ),
+  };
+};
+export const WeightPage = connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(WeightPageClass);

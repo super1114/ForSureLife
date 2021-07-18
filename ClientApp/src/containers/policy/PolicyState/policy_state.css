@@ -1,0 +1,14 @@
+.policy-state-form{
+    position: relative;
+}
+.policy-state-form .ant-select-selector{
+    border-radius: 7px !important;
+}
+.policy-state-form .ant-form-item-explain{
+    position: absolute;
+    top: -25px;
+    right: 20px;
+}
+.policy-state-form label{
+    font-size: 18px !important;
+}

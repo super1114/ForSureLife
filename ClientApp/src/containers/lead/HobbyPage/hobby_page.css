@@ -1,0 +1,6 @@
+.hobby-page label {
+    font-size: 22px !important;
+}
+.hobby-page .ant-form-item-control-input input{
+    border-radius: 7px;
+}

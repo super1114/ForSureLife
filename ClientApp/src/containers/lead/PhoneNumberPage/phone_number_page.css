@@ -1,0 +1,6 @@
+.phone-number-page label {
+    font-size: 22px !important;
+}
+.phone-number-page .ant-input-affix-wrapper-lg {
+    border-radius: 7px;
+}

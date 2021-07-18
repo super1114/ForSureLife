@@ -1,0 +1,25 @@
+.quote-ready-logos{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.quote-btn{
+    background-color: #FF6300;
+    border-radius: 24px !important;
+    color: #fff;
+    border: 0;
+    font-size: 22px !important;
+    height: 34px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+    .quote-btn:hover {
+        background-color: #FF6300;
+        color: #fff;
+    }

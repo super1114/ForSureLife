@@ -1,0 +1,67 @@
+.branding-logo img{
+    max-width: 84%;
+}
+.branding-logo p{
+    font-family: Arial;
+    font-size: 12px;
+    text-align: center;
+    color: #f2f2f2
+}
+
+.footer-menu-list {
+    list-style: none;
+}
+.footer-menu-list li{
+    font-family: Arial;
+    color: #F4F4F4;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.footer-menu-list li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contactInfo{
+    font-size: 12px;
+    color: #ffffff;
+}
+.policyLink a{
+    display: block;
+    color: #C6C6C6;
+    font-size: 12px;
+}
+
+.footer-wrapper{
+    background-color: #323232;
+    padding: 30px;
+}
+.logo img {
+    width: 50%;
+}
+.footer-copyRight{
+    color: #f2f2f2;
+    font-size: 12px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .branding-logo img{
+        width: 213px;
+    }
+    .footer-wrapper{
+        text-align: center;
+    }
+    .footer-menu-list{
+        display: none;
+    }
+    .contactInfo{
+        margin-bottom: 10px;
+    }
+    .logo {
+        padding: 30px 0;
+    }
+    .footer-copyRight{
+        margin-top: 15px;
+    }
+}
