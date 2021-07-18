@@ -1,0 +1,294 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+    <SpaRoot>ClientApp\</SpaRoot>
+    <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <UserSecretsId>472d4b1c-1987-4863-bd8a-8c4ece99247f</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/8e2d4952-589e-48ce-9629-15a2301e675b/resourceGroups/KaliLife-SeniorDiret-ResourceGroup/providers/microsoft.insights/components/KaliLife-SeniorDirect</ApplicationInsightsResourceId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.7" />
+    <PackageReference Include="NSwag.AspNetCore" Version="13.10.5" />
+    <PackageReference Include="NSwag.MSBuild" Version="13.10.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
+  </ItemGroup>
+
+  <Target Name="NSwag" BeforeTargets="AfterBuild" Condition="'$(TF_BUILD)'!='True'">
+    <Exec ConsoleToMSBuild="true" ContinueOnError="true" Command="$(NSwagExe_Core31) run nswag.json">
+      <Output TaskParameter="ExitCode" PropertyName="NSwagExitCode" />
+      <Output TaskParameter="ConsoleOutput" PropertyName="NSwagOutput" />
+    </Exec>
+
+    <Message Text="$(NSwagOutput)" Condition="'$(NSwagExitCode)' == '0'" Importance="low" />
+    <Error Text="$(NSwagOutput)" Condition="'$(NSwagExitCode)' != '0'" />
+  </Target>
+
+  <ItemGroup>
+    <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Content Remove="$(SpaRoot)**" />
+    <None Remove="$(SpaRoot)**" />
+    <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\templates\application\AK\American Amicable - Alaska.pdf" />
+    <None Remove="Assets\templates\application\AL\American Amicable - Alabama.pdf" />
+    <None Remove="Assets\templates\application\AR\American Amicable - Arkansas.pdf" />
+    <None Remove="Assets\templates\application\AZ\American Amicable - Arizona.pdf" />
+    <None Remove="Assets\templates\application\Beneficiaries\AA9820-P.pdf" />
+    <None Remove="Assets\templates\application\CO\American Amicable - Colorado.pdf" />
+    <None Remove="Assets\templates\application\CT\American Amicable - Connecticut.pdf" />
+    <None Remove="Assets\templates\application\DC\American Amicable - District of Columbia.pdf" />
+    <None Remove="Assets\templates\application\FL\American Amicable - Florida.pdf" />
+    <None Remove="Assets\templates\application\GA\American Amicable - Georgia.pdf" />
+    <None Remove="Assets\templates\application\HI\American Amicable - Hawaii.pdf" />
+    <None Remove="Assets\templates\application\ID\American Amicable - Idaho.pdf" />
+    <None Remove="Assets\templates\application\IL\American Amicable - Illinois.pdf" />
+    <None Remove="Assets\templates\application\IN\American Amicable - Indiana.pdf" />
+    <None Remove="Assets\templates\application\KS\American Amicable - Kansas.pdf" />
+    <None Remove="Assets\templates\application\KY\American Amicable - Kentucky.pdf" />
+    <None Remove="Assets\templates\application\LA\American Amicable - Louisiana.pdf" />
+    <None Remove="Assets\templates\application\MD\American Amicable - Maryland.pdf" />
+    <None Remove="Assets\templates\application\ME\American Amicable - Maine.pdf" />
+    <None Remove="Assets\templates\application\MN\American Amicable - Minnesota.pdf" />
+    <None Remove="Assets\templates\application\MO\American Amicable - Missouri.pdf" />
+    <None Remove="Assets\templates\application\MS\American Amicable - Mississippi.pdf" />
+    <None Remove="Assets\templates\application\NC\American Amicable - North Carolina.pdf" />
+    <None Remove="Assets\templates\application\NE\American Amicable - Nebraska.pdf" />
+    <None Remove="Assets\templates\application\NM\American Amicable - New Mexico.pdf" />
+    <None Remove="Assets\templates\application\NV\American Amicable - Nevada.pdf" />
+    <None Remove="Assets\templates\application\OH\American Amicable - Ohio.pdf" />
+    <None Remove="Assets\templates\application\OK\American Amicable - Oklahoma.pdf" />
+    <None Remove="Assets\templates\application\OR\American Amicable - Oregon.pdf" />
+    <None Remove="Assets\templates\application\PA\American Amicable - Pennsylvania.pdf" />
+    <None Remove="Assets\templates\application\SC\American Amicable - South Carolina.pdf" />
+    <None Remove="Assets\templates\application\TN\American Amicable - Tennessee.pdf" />
+    <None Remove="Assets\templates\application\TX\American Amicable - Texas.pdf" />
+    <None Remove="Assets\templates\application\UT\American Amicable - Utah.pdf" />
+    <None Remove="Assets\templates\application\VA\American Amicable - Virginia.pdf" />
+    <None Remove="Assets\templates\application\WA\American Amicable - Washington.pdf" />
+    <None Remove="Assets\templates\application\WI\American Amicable - Wisconsin.pdf" />
+    <None Remove="Assets\templates\application\WV\American Amicable - West Virginia.pdf" />
+    <None Remove="Assets\templates\application\WY\American Amicable - Wyoming.pdf" />
+    <None Remove="ClientApp\src\containers\health\health_landing.tsx" />
+    <None Remove="ClientApp\src\containers\knockout\health_landing.tsx" />
+    <None Remove="ClientApp\src\containers\lead\agent_contact_page.tsx" />
+    <None Remove="ClientApp\src\containers\lead\initial_landing1.tsx" />
+    <None Remove="ClientApp\src\containers\lead\initial_landing2.tsx" />
+    <None Remove="ClientApp\src\containers\lead\initial_landing3.tsx" />
+    <None Remove="ClientApp\src\containers\lead\initial_landing4.tsx" />
+    <None Remove="ClientApp\src\containers\lead\initial_landing5.tsx" />
+    <None Remove="ClientApp\src\containers\lead\thank_you_page.tsx" />
+    <None Remove="ClientApp\src\containers\lead\transition_page1.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\templates\application\AK\American Amicable - Alaska.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\AL\American Amicable - Alabama.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\AR\American Amicable - Arkansas.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\AZ\American Amicable - Arizona.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\Beneficiaries\AA9820-P.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\CO\American Amicable - Colorado.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\CT\American Amicable - Connecticut.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\DC\American Amicable - District of Columbia.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\FL\American Amicable - Florida.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\GA\American Amicable - Georgia.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\HI\American Amicable - Hawaii.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\ID\American Amicable - Idaho.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\IL\American Amicable - Illinois.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\IN\American Amicable - Indiana.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\KS\American Amicable - Kansas.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\KY\American Amicable - Kentucky.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\LA\American Amicable - Louisiana.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\MD\American Amicable - Maryland.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\ME\American Amicable - Maine.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\MN\American Amicable - Minnesota.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\MO\American Amicable - Missouri.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\MS\American Amicable - Mississippi.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\NC\American Amicable - North Carolina.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\NE\American Amicable - Nebraska.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\NM\American Amicable - New Mexico.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\NV\American Amicable - Nevada.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\OH\American Amicable - Ohio.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\OK\American Amicable - Oklahoma.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\OR\American Amicable - Oregon.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\PA\American Amicable - Pennsylvania.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\SC\American Amicable - South Carolina.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\TN\American Amicable - Tennessee.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\TX\American Amicable - Texas.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\UT\American Amicable - Utah.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\VA\American Amicable - Virginia.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\WA\American Amicable - Washington.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\WI\American Amicable - Wisconsin.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assets\templates\application\WV\American Amicable - West Virginia.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Output\application\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ForSureLife.biz\ForSureLife.biz.csproj" />
+    <ProjectReference Include="..\ForSureLife.Models\ForSureLife.Models.csproj" />
+    <ProjectReference Include="..\ForSureLife.util\ForSureLife.util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\containers\health\health_landing.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\knockout\health_landing.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\thank_you_page.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\agent_contact_page.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\initial_landing5.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\initial_landing4.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\initial_landing3.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\initial_landing2.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\transition_page1.tsx">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="ClientApp\src\containers\lead\initial_landing1.tsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ClientApp\public\Young at Heart- XW White.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+    <Message Importance="high" Text="Restoring dependencies using 'npm'. This may take several minutes..." />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm install" />
+    <Exec WorkingDirectory="$(SpaRoot)" Command="npm run build" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="$(SpaRoot)build\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

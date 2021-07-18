@@ -1,0 +1,310 @@
+{
+  "aaFinalExpenseId": "cd5c46c0-92cc-4f78-80af-a1e30fd8a9eb",
+  "applicationState": 43,
+  "selectedBenefitAmount": 35000,
+  "selectedMonthlyRate": 180.25,
+  "premiumType": 0,
+  "mailPolicyTo": 1,
+  "effectiveDate": "2021-03-05T03:17:43.948",
+  "insuranceCompanyName": 0,
+  "signed": true,
+  "signedDate": "2021-03-05T03:17:43.948",
+  "signatureLocation": "TX",
+  "clientIPAddress": "65.42.23.12",
+  "fileNumber": 100004,
+  "applicationAnswers": [
+    {
+      "amAmApplicationAnswersId": "cffae32c-637b-475f-91d9-2a72f38b133f",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-821a-376a-711e-757e27ce3169",
+        "questionName": 6,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "631b1a81-fc43-4359-9e93-ef6c46f447e6",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-811a-376a-711e-757e27ce3269",
+        "questionName": 7,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "35133fee-e63a-412d-9904-998998bb02f5",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-801a-376a-711e-757e27ce3369",
+        "questionName": 8,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "b7855ce2-67e1-42a8-a658-68c6a61fbedd",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bd-881a-376a-711e-757e27ce3469",
+        "questionName": 0,
+        "applicationSection": 0,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "993d5b52-604d-4fd5-ad43-85c497c7269f",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-882a-376a-711e-757e27ce3469",
+        "questionName": 9,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "b91d7203-7b06-42e9-af3b-c6bf93b3856b",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-883a-376a-711e-757e27ce3569",
+        "questionName": 10,
+        "applicationSection": 1,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "1251024f-141d-4e4d-958d-a78b7292721a",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-884a-376a-711e-757e27ce3669",
+        "questionName": 11,
+        "applicationSection": 1,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "cb8906c5-7d20-40c7-8477-7a85995306d2",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-885a-376a-711e-757e27ce3769",
+        "questionName": 12,
+        "applicationSection": 1,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "dfd42f2d-e464-41dd-a4df-1ed88fa7fdb6",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4be-881a-376a-711e-757e27ce5369",
+        "questionName": 2,
+        "applicationSection": 0,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "a696282a-4823-471c-a4dd-7a31f2e6ec32",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4ba-881a-376a-711e-757e27ce6369",
+        "questionName": 3,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "4e5ea50e-9e30-4c0c-83f6-e888d6eb1888",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-891a-376a-711e-757e27ce7369",
+        "questionName": 4,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "a1a72c2f-b6ee-4485-8010-bbee5e9c36fc",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-851a-376a-711e-757e27ce8369",
+        "questionName": 1,
+        "applicationSection": 0,
+        "states": null
+      },
+      "answer": false
+    },
+    {
+      "amAmApplicationAnswersId": "a1d51450-6865-411c-a987-92db8e97301f",
+      "question": {
+        "amAmApplicationQuestionsId": "e494a4bc-831a-376a-711e-757e27ce9369",
+        "questionName": 5,
+        "applicationSection": 2,
+        "states": null
+      },
+      "answer": false
+    }
+  ],
+  "application": {
+    "applicationId": "e67624e0-6fe8-487a-9653-a15bb769b9d7",
+    "leadInfo": {
+      "LeadId": "40f6dd96-74e3-4db7-3e31-08d8e499cb4b",
+      "LeadSource": "",
+      "FirstName": "Bobby",
+      "MiddleName": "A",
+      "LastName": "Test",
+      "Email": "anyone@gmail.com",
+      "Phone": "333-333-3333",
+      "Address1": "101 Insured Lane",
+      "Address2": "",
+      "State": "AK",
+      "ZipCode": 99501,
+      "City": "ANCHORAGE",
+      "County": "Denton",
+      "DOB": "1960-06-15T00:00:00",
+      "CurrentCoverage": false,
+      "DesiredCoverageAmount": 35000.0,
+      "Hobby": "",
+      "Gender": 0
+    },
+    "healthQuestions": [
+      {
+        "healthQuestionId": "c0682aa9-afc6-447d-f24b-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 1,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "6a0c94ac-4368-4c37-f24c-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 2,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "9c6e3366-3e9c-4504-f24d-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 3,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "190b3270-1451-4d19-f24e-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 4,
+        "healthQuestionName": "",
+        "healthAnswer": true,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "3d3055c7-1749-4cad-f24f-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 5,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "4e8b5b18-1a04-499a-f250-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 6,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "b207789c-c166-412f-f251-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 7,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "d6113520-ed3e-4da9-f252-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 8,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 2
+      },
+      {
+        "healthQuestionId": "dd50d1f7-6ce4-49d0-f253-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 9,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "fde2fe9a-1b74-47dd-f254-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 10,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "1009eefa-366e-4cc7-f255-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 11,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "983c1d0d-0a47-4239-f256-08d8e7e96cf7",
+        "leadHealthQuestion": 0,
+        "applicationQuestion": 12,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      },
+      {
+        "healthQuestionId": "4eafc9a3-cc27-4f95-f257-08d8e7e96cf7",
+        "leadHealthQuestion": 1,
+        "applicationQuestion": 0,
+        "healthQuestionName": "",
+        "healthAnswer": false,
+        "occurence": 0
+      }
+    ],
+    "selectedQuotes": null,
+    "beneficiaries": [],
+    "applicationInfo": {
+      "ApplicationInfoId": "327a5a4e-056c-4e94-fb14-08d8e499cb3b",
+      "DOB": "1960-06-15T00:00:00",
+      "FirstName": "Bobby",
+      "MiddleName": "A",
+      "LastName": "Test",
+      "SSN": 222222222,
+      "SeparateOwner": false,
+      "LifePolicy": false,
+      "LifePolicyInsuranceCompany": "Metlife Insurance",
+      "LifePolicyNumber": "ML12345",
+      "LifeCoverageAmount": 150000.0,
+      "HeightFt": 5,
+      "HeightIn": 11,
+      "Weight": 201.0,
+      "BirthState": "AK"
+    },
+    "paymentInfo": {
+      "paymentId": "1af52518-ac17-474e-58c0-08d8e7e96d53",
+      "BankingInsitution": "First National Bank",
+      "BankAddress": "Anywhere AK",
+      "accountNumber": 60934393,
+      "routingNumber": 84100793,
+      "bankType": 0,
+      "paymentWithdrawlDate": 6,
+      "socialSecurityWithdrawDate": 0
+    },
+    "language": null,
+    "signed": false,
+    "signedDate": "2021-03-05T03:17:43.948",
+    "createdDate": "0001-01-01T00:00:00",
+    "updateDate": "0001-01-01T00:00:00"
+  }
+}
