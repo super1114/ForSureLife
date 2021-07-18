@@ -1,0 +1,202 @@
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\appsettings.Production.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\configs\seniorchoice-forms.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\samples\applications\00016cbe-a9b7-49ae-9dad-ce1e8941724f.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\samples\applications\00026cbe-a9b7-49ae-9dad-ce1e8941724f.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\samples\applications\00036cbe-a9b7-49ae-9dad-ce1e8941724f.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\samples\applications\00046cbe-a9b7-49ae-9dad-ce1e8941724f.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\SeniorChoice-Testing-Matrix-states.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\nswag.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.StaticWebAssets.xml
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.exe
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\AK\American Amicable - Alaska.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\AL\American Amicable - Alabama.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\AR\American Amicable - Arkansas.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\AZ\American Amicable - Arizona.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\Beneficiaries\AA9820-P.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\CO\American Amicable - Colorado.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\CT\American Amicable - Connecticut.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\DC\American Amicable - District of Columbia.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\FL\American Amicable - Florida.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\GA\American Amicable - Georgia.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\HI\American Amicable - Hawaii.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\ID\American Amicable - Idaho.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\IL\American Amicable - Illinois.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\IN\American Amicable - Indiana.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\KS\American Amicable - Kansas.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\KY\American Amicable - Kentucky.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\LA\American Amicable - Louisiana.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\MD\American Amicable - Maryland.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\ME\American Amicable - Maine.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\MN\American Amicable - Minnesota.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\MO\American Amicable - Missouri.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\MS\American Amicable - Mississippi.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\NC\American Amicable - North Carolina.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\NE\American Amicable - Nebraska.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\NM\American Amicable - New Mexico.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\NV\American Amicable - Nevada.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\OH\American Amicable - Ohio.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\OK\American Amicable - Oklahoma.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\OR\American Amicable - Oregon.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\PA\American Amicable - Pennsylvania.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\SC\American Amicable - South Carolina.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\TN\American Amicable - Tennessee.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\TX\American Amicable - Texas.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\UT\American Amicable - Utah.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\VA\American Amicable - Virginia.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\WA\American Amicable - Washington.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\WI\American Amicable - Wisconsin.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Assets\templates\application\WV\American Amicable - West Virginia.pdf
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.deps.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.runtimeconfig.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.runtimeconfig.dev.json
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.xml
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.Views.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.Views.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Azure.Storage.Blobs.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Azure.Storage.Common.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\SendGrid.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Memory.Data.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Text.Encoding.CodePages.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Text.Encoding.CodePages.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.biz.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.Models.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.repo.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.util.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.biz.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.Models.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.util.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\bin\Debug\netcoreapp3.1\ForSureLife.repo.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.csproj.AssemblyReference.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.AssemblyInfoInputs.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.AssemblyInfo.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.csproj.CoreCompileInputs.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.MvcApplicationPartsAssemblyInfo.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.MvcApplicationPartsAssemblyInfo.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.RazorAssemblyInfo.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.RazorAssemblyInfo.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\staticwebassets\ForSureLife.StaticWebAssets.Manifest.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\staticwebassets\ForSureLife.StaticWebAssets.xml
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\scopedcss\bundle\ForSureLife.styles.css
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.TagHelpers.input.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.TagHelpers.output.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.RazorCoreGenerate.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.RazorTargetAssemblyInfo.cache
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.RazorTargetAssemblyInfo.cs
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.Views.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.csproj.CopyComplete
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.dll
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.xml
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.pdb
+D:\Temp\Testing\New\ForSureLife\ForSureLife\obj\Debug\netcoreapp3.1\ForSureLife.genruntimeconfig.cache

@@ -1,0 +1,421 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife\\ForSureLife.csproj": {}
+  },
+  "projects": {
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\ForSureLife.biz.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\ForSureLife.biz.csproj",
+        "projectName": "ForSureLife.biz",
+        "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\ForSureLife.biz.csproj",
+        "packagesPath": "C:\\Users\\SuperD\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuperD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj"
+              },
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\ForSureLife.repo.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\ForSureLife.repo.csproj"
+              },
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "iTextSharp.LGPLv2.Core": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj",
+        "projectName": "ForSureLife.Models",
+        "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj",
+        "packagesPath": "C:\\Users\\SuperD\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuperD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\ForSureLife.repo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\ForSureLife.repo.csproj",
+        "projectName": "ForSureLife.repo",
+        "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\ForSureLife.repo.csproj",
+        "packagesPath": "C:\\Users\\SuperD\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.repo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuperD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.9.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj",
+        "projectName": "ForSureLife.util",
+        "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj",
+        "packagesPath": "C:\\Users\\SuperD\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuperD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife\\ForSureLife.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife\\ForSureLife.csproj",
+        "projectName": "ForSureLife",
+        "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife\\ForSureLife.csproj",
+        "packagesPath": "C:\\Users\\SuperD\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SuperD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\ForSureLife.biz.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.biz\\ForSureLife.biz.csproj"
+              },
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.Models\\ForSureLife.Models.csproj"
+              },
+              "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj": {
+                "projectPath": "D:\\Temp\\Testing\\New\\ForSureLife\\ForSureLife.util\\ForSureLife.util.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.10.5, )"
+            },
+            "NSwag.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.10.5, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

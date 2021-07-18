@@ -1,0 +1,416 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForSureLife</name>
+    </assembly>
+    <members>
+        <member name="M:ForSureLife.Controllers.ApplicationController.Get">
+            <summary>
+            Get Application
+            </summary>
+            <param name="applicationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.GetResume(System.String,System.String,System.Guid)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="applicationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.ResumeActivity(System.String,System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="email"></param>
+            <param name="phone"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.ResumeActivityChallenge(System.String,System.String,System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="applicationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.Create(ForSureLife.Models.DTO.ApplicationDto)">
+            <summary>
+            Create Application
+            </summary>
+            <param name="applicationDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.Update(ForSureLife.Models.DTO.ApplicationDto)">
+            <summary>
+            Update Application
+            </summary>
+            <param name="applicationDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.Delete(System.Guid)">
+            <summary>
+            Delete Application
+            </summary>
+            <param name="applicationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.GetApplicationInfo(System.Guid)">
+            <summary>
+            Get Application Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.CreateApplicationInfo(ForSureLife.Models.DTO.ApplicationInfoDto)">
+            <summary>
+            Create Application Info
+            </summary>
+            <param name="application"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.UpdateApplicationInfo(ForSureLife.Models.DTO.ApplicationInfoDto)">
+            <summary>
+            Update Application Info
+            </summary>
+            <param name="applicationInfoDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.DeleteApplicationInfo(System.Guid)">
+            <summary>
+            Delete Application Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.GetSeparateOwnerInfo(System.Guid)">
+            <summary>
+            Get Application Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.CreateSeparateOwnerInfo(System.Guid,ForSureLife.Models.DTO.SeparatePolicyOwner)">
+            <summary>
+            Create Separate Owner Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <param name="separatePolicyOwner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.UpdateSeparateOwnerInfo(System.Guid,ForSureLife.Models.DTO.SeparatePolicyOwner)">
+            <summary>
+            Update Separate Owner Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <param name="separatePolicyOwner"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationController.DeleteSeparateOwnerInfo(System.Guid)">
+            <summary>
+            Delete Separate Owner Info
+            </summary>
+            <param name="applicationInfoId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.Get">
+            <summary>
+            Get Application Health Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.Create(ForSureLife.Models.DTO.ApplicationHealthQuestionsDto)">
+            <summary>
+            Create Initial Application Health Questions, Must call before Updating individual Questions
+            </summary>
+            <param name="healthQuestionsDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.Update(ForSureLife.Models.DTO.ApplicationHealthQuestionsDto)">
+            <summary>
+            Update Application Health Questions
+            </summary>
+            <param name="healthQuestions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.Delete(System.Guid)">
+            <summary>
+            Delete Application Health Questions, Testing Only
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.GetApplicationHealthQuestion(System.Int32)">
+            <summary>
+            Get Application Health Questions
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.CreateApplicationHealthQuestion(ForSureLife.Models.DTO.ApplicationHealthQuestionDto)">
+            <summary>
+            Create Individual Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.UpdateApplicationHealthQuestion(ForSureLife.Models.DTO.ApplicationHealthQuestionDto)">
+            <summary>
+            Update Individual Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.ApplicationHealthQuestionsController.DeleteApplicationHealthQuestion(ForSureLife.Models.DTO.ApplicationHealthQuestionDto)">
+            <summary>
+            Delete Individual Question, For Testing Only
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.AuthorizeController.CreateToken(ForSureLife.Models.DTO.LoginModelDto)">
+            <summary>
+            Create Token
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.AuthorizeController.Get">
+            <summary>
+            Test Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BankController.GetBankName(System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="bankName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BankController.GetRoutingInfo(System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="routingNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BankController.GetBirthPlaces(System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BankController.GetDoctors(System.String)">
+            <summary>
+            Get Application
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.Get">
+            <summary>
+            Get All Beneficiaries
+            </summary>
+            <param name="BeneficiariesId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.Create(System.Collections.Generic.List{ForSureLife.Models.DTO.BeneficiariesDto})">
+            <summary>
+            Create Beneficiaries
+            </summary>
+            <param name="beneficiariesDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.Update(System.Collections.Generic.List{ForSureLife.Models.DTO.BeneficiariesDto})">
+            <summary>
+            Update Beneficiaries
+            </summary>
+            <param name="beneficiaries"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.GetSingle(System.Guid)">
+            <summary>
+            Get All Beneficiaries
+            </summary>
+            <param name="BeneficiariesId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.CreateBeneficiary(ForSureLife.Models.DTO.BeneficiaryDto)">
+            <summary>
+            Create Beneficiary
+            </summary>
+            <param name="beneficiary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.UpdateBeneficiary(ForSureLife.Models.DTO.BeneficiaryDto)">
+            <summary>
+            Update Beneficiary
+            </summary>
+            <param name="beneficiary"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.BeneficiaryController.DeleteBeneficiary(System.Guid)">
+            <summary>
+            Delete Beneficiary
+            </summary>
+            <param name="beneficiaryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.Post(ForSureLife.Models.DTO.LeadDTO)">
+            <summary>
+            Create Lead
+            </summary>
+            <param name="leadInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.IntegrityLeadPost(ForSureLife.Models.DTO.LeadSaleDto)">
+            <summary>
+            Submit Sale of Lead
+            </summary>
+            <param name="leadInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.BulkIntegrityLeadPost(ForSureLife.Models.DTO.BulkLeadSaleDto)">
+            <summary>
+            Submit Sale of Lead
+            </summary>
+            <param name="leadInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.Patch(ForSureLife.Models.DTO.LeadDTO)">
+            <summary>
+            Update Lead
+            </summary>
+            <param name="leadInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.Get(System.Guid)">
+            <summary>
+            Get Lead by Id
+            </summary>
+            <param name="leadId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadController.Delete(System.Guid)">
+            <summary>
+            Delete Lead, Testing Only
+            </summary>
+            <param name="leadId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.Get(System.Guid)">
+            <summary>
+            Get Health Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.Create(System.Collections.Generic.List{ForSureLife.Models.DTO.LeadHealthQuestionsDto})">
+            <summary>
+            Create Initial HealthQuestions, Must call before Updating individual Questions
+            </summary>
+            <param name="healthQuestionsDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.Delete(System.Guid)">
+            <summary>
+            Delete Lead Health Questions, Testing Only
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.GetLeadHealthQuestion(System.Int32)">
+            <summary>
+            Get Individual Lead Health Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.CreateLeadHealthQuestion(ForSureLife.Models.DTO.LeadHealthQuestionDto)">
+            <summary>
+            Create Individual Question
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.UpdateLeadHealthQuestion(ForSureLife.Models.DTO.LeadHealthQuestionDto)">
+            <summary>
+            Update Individual Question
+            </summary>
+            <param name="leadHealthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.LeadHealthQuestionsController.DeleteLeadHealthQuestion(ForSureLife.Models.Enums.LeadHealthQuestions)">
+            <summary>
+            Delete Individual Question, For Testing Only
+            </summary>
+            <param name="healthQuestionId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.PaymentController.Get(System.Guid)">
+            <summary>
+            Get Payment
+            </summary>
+            <param name="paymentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.PaymentController.Create(ForSureLife.Models.DTO.PaymentInfoDto)">
+            <summary>
+            Create Payment
+            </summary>
+            <param name="paymentInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.PaymentController.Update(ForSureLife.Models.DTO.PaymentInfoDto)">
+            <summary>
+            Update Payment
+            </summary>
+            <param name="paymentInfo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.PaymentController.Delete(System.Guid)">
+            <summary>
+            Delete Payment 
+            </summary>
+            <param name="paymentId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.QuoteController.GetQuote(System.Guid)">
+            <summary>
+            Get Quote by Id
+            </summary>
+            <param name="quoteId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.QuoteController.GetAmAmApplication(System.Guid)">
+            <summary>
+            Update Application Health Questions
+            </summary>
+            <param name="healthQuestions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.QuoteController.UpdateAmAmApplication(ForSureLife.repo.Models.Enroll.AAFinalExpense)">
+            <summary>
+            Update Application Health Questions
+            </summary>
+            <param name="healthQuestions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.QuoteController.SubmitAmAmApplication(System.Guid)">
+            <summary>
+            Update Application Health Questions
+            </summary>
+            <param name="healthQuestions"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ForSureLife.Controllers.QuoteController.GetAmAmApplicationPDF">
+            <summary>
+            Update Application Health Questions
+            </summary>
+            <param name="healthQuestions"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
